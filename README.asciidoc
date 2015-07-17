@@ -1,0 +1,19 @@
+== Simple Arquillian HelloWorld example
+
+Example is configured to use the Arquillian Chameleon adapter
+to start a WildFly 9.0.0.Final Managed container during testing.
+
+The example contain a simple CDI service under test showing the
+complete lifecycle of Arquillian;
+
+* container start
+* deploy
+* test
+* undeploy
+* container stop
+
+=== Resources
+
+* http://arquillian.org/guides/getting_started/[Getting Started]
+* http://arquillian.org/[Arquillian]
+* https://github.com/arquillian/arquillian-container-chameleon/[Arquillian Chameleon]
